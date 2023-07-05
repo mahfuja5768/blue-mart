@@ -1,0 +1,180 @@
+/* responsive-part */
+/* mobile */
+@media screen and (max-width: 577px) {
+    .p {
+      line-height: 0.125rem;
+      font-size: 12px;
+    }
+    .title-paragraph {
+      width: 300px;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .banner-section {
+      flex-direction: column;
+      gap: 30px;
+    }
+    .banner-msg {
+      width: 260px;
+      height: 350px;
+      padding: 30px 20px;
+    }
+    .img-border {
+      margin-top: -375px;
+      margin-left: 10px;
+      width: 270px;
+      height: 400px;
+    }
+    .block {
+      display: inline;
+    }
+    .banner-msg h1 {
+      display: inline;
+      font-size: 20px;
+      color: blue;
+      margin-bottom: 20px;
+    }
+    .banner-msg p {
+      width: 230px;
+      height: 66px;
+      margin-bottom: 60px;
+      text-align: start;
+      font-size: 12px;
+    }
+    .banner-img img {
+      /* width: 290px; */
+      height: 500px;
+    }
+    .about-content {
+      flex-direction: column;
+    }
+    .about-img img {
+      width: 240px;
+    }
+    .card {
+      width: 345px;
+    }
+    .content-text {
+      width: 300px;
+    }
+    .features-section{
+      margin-top: 50px;
+      padding-top: 40px;
+    }
+  
+    .features{
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .coloum-flex{
+      margin-top: 20px;
+      height: 270px;
+  }
+  .same-look p{
+      width: 200px;
+      margin: 0 auto;
+  }
+  .same-look h2{
+      font-size: 25px;
+  }
+  .left-feature{
+      text-align: center;
+      margin-bottom: 30px;
+  }
+  .right-feature {
+      text-align: center;
+      margin-bottom: 30px;
+  }
+  .features-mid-img{
+      margin: 30px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .features-mid-img img{
+      width: 240px;
+      height: 460px;
+  }
+  .img-1{
+    display: none;
+  }
+  .img-2 img{
+    width: 100px;
+    height: 300px;
+  }
+  .img-3 img{
+    width: 150px;
+    height: 340px;
+  }
+  .img-4 img{
+    width: 100px;
+    height: 300px;
+  }
+  .img-5{
+    display: none;
+  }
+  .phn-block{
+      display: block;
+  }
+  }
+
+  
+  
+  /* tablet */
+  
+  @media screen and (min-width: 578px) {
+    .banner-msg {
+      width: 320px;
+      height: 350px;
+    }
+    .img-border {
+      margin-top: -380px;
+      margin-left: 40px;
+      width: 310px;
+      height: 410px;
+    }
+    .banner-msg h1 {
+      text-align: start;
+      font-size: 30px;
+      color: blue;
+      margin-bottom: 20px;
+    }
+    .banner-msg p {
+      width: 290px;
+      height: 66px;
+      margin-bottom: 40px;
+    }
+    .banner-img img {
+      height: 500px;
+    }
+    .about-img img {
+      width: 300px;
+    }
+    .card {
+      width: 400px;
+    }
+    .content-text {
+      width: 300px;
+    }
+  
+    .coloum-flex{
+      margin-top: 80px;
+      height: 450px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+  }
+    .left-feature{
+      margin-bottom: 30px;
+  }
+  .right-feature {
+      margin-bottom: 30px;
+  }
+  .features-mid-img img{
+      width: 220px;
+      height: 500px;
+  }
+  
+  }
+  
