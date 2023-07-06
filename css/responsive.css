@@ -10,6 +10,9 @@
     line-height: 0.125rem;
     font-size: 12px;
   }
+  .navs{
+    display: none;
+  }
   .title-paragraph {
     width: 300px;
     margin: 0 auto;
@@ -213,6 +216,15 @@
     font-size: 32px;
     font-weight: 600;
     text-align: center;
+  }
+  .bars{
+    display: block;
+  }
+  .navs nav a{
+    display: none;
+  }
+  .navs nav img{
+    display: block;
   }
   .banner-msg {
     width: 320px;
