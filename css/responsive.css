@@ -47,6 +47,7 @@
     margin: 0 auto;
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;
   }
   .banner-section {
     flex-direction: column;
@@ -184,7 +185,7 @@
     padding-bottom: 90px;
   }
   .use-section-content P {
-    width: 360px;
+    width: 250px;
   }
   .overlap-img img {
     width: 245px;
@@ -195,7 +196,7 @@
     width: 300px;
   }
    .customer-comment img{
-    width: 400px;
+    width: 350px;
   }
   .comment-img-1 ,  .comment-img-2 {
    display: none;
@@ -218,6 +219,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .blog-card img{
+    width: 95%;
   }
 
   .footer-top {
@@ -394,6 +398,9 @@
   .overlap-img img {
     width: 80%;
     margin-top: -100px;
+  }
+  .team-section > .title-paragraph{
+   margin-bottom: 20px;
   }
 
   .team-cards {

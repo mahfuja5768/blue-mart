@@ -74,7 +74,7 @@ header {
   border-radius: 5px;
 }
 .bars {
-  display: none;
+  display: block;
 }
 .top-panel {
   background-color: #fff;
