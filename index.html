@@ -4,25 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blue-Mart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
   </head>
   <body>
-    <header class="header-section">
+    <header>
       <div class="container">
         <div class="navs">
           <div class="top-panel">
             <nav>
-              <img class="bars" src="images/menu-line.png" alt="">
+              <img  src="images/menu-line.png" alt="">
+              <i class="bars" class="fa-solid fa-bars"></i>
               <a href="">Home</a>
               <a href="">About</a>
               <a href="">Features</a>
-              <a href=""
-                ><img class="logo" src="images/Logo4 1.png" alt=""
-              /></a>
+              <img class="logo" src="images/Logo4 1.png" alt=""
+              />
               <a href="">Screenshot</a>
               <a href="">Blog</a>
-              <a href="">Download</a>
+              <button class="btn">Download </button>
             </nav>
           </div>
           <img class="logo" src="images/Logo4 1.png" alt="" />
@@ -119,7 +120,7 @@
           <div class="same-look top-gap">
             <img src="icons/comment.png" alt="" />
             <h2>Full free chat</h2>
-            <p>
+            <p class="center-text">
               Lorem ipsum dolor sit amet, consectetur
               <span class="block">adipiscing elit.</span>
             </p>
@@ -173,13 +174,13 @@
           <div class="same-look top-gap">
             <img src="icons/male-telemarketer.png " alt="" />
             <h2>24/7 support by real <span class="phn-block">pepole</span></h2>
-            <p>
+            <p class="center-text">
               Lorem ipsum dolor sit amet, consectetur
               <span class="block">adipiscing elit.</span>
             </p>
           </div>
         </div>
-      </section>
+      </section> 
 
       <!-- Checkout-section -->
       <section class="Checkout-section section-gap">
@@ -220,10 +221,11 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> 
 
       <!-- how-to-use-section -->
-      <section class="how-to-use-section section-gap">
+     <section class=" section-gap">
+      <div class="how-to-use-section">
         <div class="container">
           <div class="use-section-content">
             <h1>How to use the app <span class="phn-block">perfectly</span></h1>
@@ -234,12 +236,14 @@
               Ullamcorper risus tempor, ac nunc libero urna, feugiat.
             </p>
           </div>
-          <div class="overlap-img"><img src="images/Image.png" alt="" /></div>
         </div>
+      </div>
+        
+      <div class="overlap-img"><img src="images/Image.png" alt="" /></div>
       </section>
 
       <!-- team-section -->
-      <section class="team-section section-gap">
+       <section class="team-section section-gap">
         <div class="container">
           <h1>Our reative team</h1>
           <p class="title-paragraph">
@@ -252,45 +256,45 @@
             <div class="person-card">
               <img src="images/Profile Image.png" alt="" />
               <h1>Carla Press</h1>
-              <h3>App Developer</h3>
+              <h4>App Developer</h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
                 nunc ante velit vitae. Est tellus vitae.
               </p>
               <div class="social-icons">
-                <img src="icons/facebook-fill.png" alt="" /> |
-                <img src="icons/instagram-fill.png" alt="" /> |
-                <img src="icons/twitter-fill.png" alt="" /> |
+                <img src="icons/facebook-fill.png" alt="" /> 
+                <img src="icons/instagram-fill.png" alt="" /> 
+                <img src="icons/twitter-fill.png" alt="" /> 
                 <img src="icons/youtube-fill.png" alt="" />
               </div>
             </div>
             <div class="person-card">
               <img src="images/Profile.png" alt="" />
               <h1>Craig Gouse</h1>
-              <h3>UI/UX Designer</h3>
+              <h4>UI/UX Designer</h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
                 nunc ante velit vitae. Est tellus vitae.
               </p>
               <div class="social-icons">
-                <img src="icons/facebook-fill.png" alt="" /> |
-                <img src="icons/instagram-fill.png" alt="" /> |
-                <img src="icons/twitter-fill.png" alt="" /> |
+                <img src="icons/facebook-fill.png" alt="" /> 
+                <img src="icons/instagram-fill.png" alt="" /> 
+                <img src="icons/twitter-fill.png" alt="" /> 
                 <img src="icons/youtube-fill.png" alt="" />
               </div>
             </div>
             <div class="person-card">
               <img src="images/Profile Image3.png" alt="" />
               <h1>Jocelyn Septimus</h1>
-              <h3>Website developer</h3>
+              <h4>Website developer</h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
                 nunc ante velit vitae. Est tellus vitae.
               </p>
               <div class="social-icons">
-                <img src="icons/facebook-fill.png" alt="" /> |
-                <img src="icons/instagram-fill.png" alt="" /> |
-                <img src="icons/twitter-fill.png" alt="" /> |
+                <img src="icons/facebook-fill.png" alt="" /> 
+                <img src="icons/instagram-fill.png" alt="" /> 
+                <img src="icons/twitter-fill.png" alt="" /> 
                 <img src="icons/youtube-fill.png" alt="" />
               </div>
             </div>
@@ -322,7 +326,7 @@
             <img class="comment-img-3" src="images/Group 1520.png" alt="" />
           </div>
         </div>
-      </section>
+      </section> 
 
       <!-- blog-section -->
       <section class="blog-section section-gap">
@@ -348,59 +352,63 @@
         </div>
       </section>
     </main>
+    <!-- footer -->
     <footer>
-      <div class="container section-gap">
-        <div class="footer-top">
-          <div class="items flex">
-            <div class="item-1 flex">
-              <img src="icons/mail-fill.png" alt="" />
-              <p>info@youremail.com</p>
-            </div>
-            <h1>|</h1>
-            <div class="item-2 flex">
-              <img src="icons/phone-fill.png" alt="" />
-              <p>+880 321 655 9985</p>
+      <div class="section-gap">
+        <div class="footer-top ">
+          <div class="container">
+            <div class="items flex">
+              <div class="item-1 flex">
+                <img src="icons/mail-fill.png" alt="" />
+                <p>info@youremail.com</p>
+              </div>
+              <div class="item-2 flex">
+                <img src="icons/phone-fill.png" alt="" />
+                <p>+880 321 655 9985</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="footer">
-          <div class="footer-content">
-            <div class="logo-footer">
-              <h1>LOGO</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur <br />
-                adipiscing elit. Viverra nunc ante velit vitae. <br />
-                Est tellus vitae, nullam lobortis enim.
-              </p>
-              <div class="social-icons footer-icons">
-                <img class="icon-bg" src="icons/facebook-fill.png" alt="" /> |
-                <img class="icon-bg" src="icons/instagram-fill.png" alt="" /> |
-                <img class="icon-bg" src="icons/twitter-fill.png" alt="" /> |
-                <img class="icon-bg" src="icons/youtube-fill.png" alt="" />
+        <div class="footer"> 
+          <div class="container">
+            <div class="footer-content">
+              <div class="logo-footer">
+                <h1>LOGO</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur <br />
+                  adipiscing elit. Viverra nunc ante velit vitae. <br />
+                  Est tellus vitae, nullam lobortis enim.
+                </p>
+                <div class="footer-icons">
+                  <img class="icon-bg" src="icons/facebook-fill.png" alt="" /> 
+                  <img class="icon-bg" src="icons/instagram-fill.png" alt="" /> 
+                  <img class="icon-bg" src="icons/twitter-fill.png" alt="" /> 
+                  <img class="icon-bg" src="icons/youtube-fill.png" alt="" />
+                </div>
+              </div>
+              <div class="links">
+                <h1>Quick link</h1>
+                <p>About</p>
+                <p>Features</p>
+                <p>Screenshot</p>
+                <p>Blog</p>
+              </div>
+              <div class="letter">
+                <h1>news letter</h1>
+                <p>
+                  Subscribe our newsletter to get our latest <br />
+                  update & news
+                </p>
+                <input type="text" placeholder="Your email address" />
               </div>
             </div>
-            <div class="links">
-              <h1>Quick link</h1>
-              <p>About</p>
-              <p>Features</p>
-              <p>Screenshot</p>
-              <p>Blog</p>
-            </div>
-            <div class="letter">
-              <h1>news letter</h1>
-              <p>
-                Subscribe our newsletter to get our latest <br />
-                update & news
+            <hr />
+            <div class="copyright-section">
+              <img src="images/copyright-line.png" alt="" />
+              <p class="copyright-msg">
+                Copyright 2021 .Ojjomedia. All Right Reserved.
               </p>
-              <input type="text" placeholder="Your email address" />
             </div>
-          </div>
-          <hr />
-          <div class="copyright-section">
-            <img src="images/copyright-line.png" alt="" />
-            <p class="copyright-msg">
-              Copyright 2021 .Ojjomedia. All Right Reserved.
-            </p>
           </div>
         </div>
       </div>

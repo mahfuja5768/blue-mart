@@ -40,18 +40,28 @@ p {
   display: flex;
   align-items: center;
 }
+.btn {
+  background-color: #5956e9;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
 
 /* header-section */
-.header-section {
+header {
   background-image: url(/images/Background\ Image.png);
   background-position: center;
   background-repeat: no-repeat;
-  height: 100%;
+  background-size: cover;
   padding-bottom: 50px;
 }
 .navs {
   padding-top: 60px;
   padding: 60px;
+}
+.logo {
+  width: 200px;
 }
 .logo {
   background-color: #ffffff;
@@ -63,7 +73,7 @@ p {
   position: relative;
   border-radius: 5px;
 }
-.bars{
+.bars {
   display: none;
 }
 .top-panel {
@@ -80,15 +90,17 @@ p {
   text-decoration: none;
   font-size: 20px;
   font-weight: 700;
+  margin-right: 20px;
 }
-.top-panel nav a img {
+.top-panel nav img {
   visibility: hidden;
 }
 
 .banner-section {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 10px;
 }
 
 .banner-msg {
@@ -124,6 +136,7 @@ p {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  padding: 10px;
 }
 
 .card {
@@ -149,6 +162,7 @@ p {
 .features-section {
   background-image: url(/images/Rectangle\ 14.png);
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
   padding-bottom: 50px;
@@ -162,6 +176,10 @@ p {
 .same-look {
   text-align: center;
 }
+
+.center-text {
+  text-align: center;
+}
 .same-look h2 {
   font-size: 30px;
   font-weight: 400;
@@ -170,7 +188,7 @@ p {
 .features {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 5px;
+  gap: 10px;
 }
 .coloum-flex {
   margin-top: 80px;
@@ -180,18 +198,18 @@ p {
   justify-content: space-between;
   align-items: center;
 }
-.left-feature {
+.left-feature,
+.left-feature p {
   text-align: right;
-  /* margin-bottom: 20px; */
+}
+.right-feature {
+  text-align: left;
 }
 .left-feature-1 {
   position: relative;
 }
 .left-feature-2 {
   bottom: 0;
-}
-.right-feature {
-  text-align: left;
 }
 .features-mid-img {
   margin: 30px 0;
@@ -251,17 +269,15 @@ p {
 
 /* how-to-use-section */
 .how-to-use-section {
-  margin-bottom: 100px;
-}
-.use-section-content {
   background-image: url(/images/Background\ Image.png);
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
-  padding-bottom: 50px;
+}
+.use-section-content {
   color: white;
   padding: 100px;
-  padding-bottom: 200px;
+  padding-bottom: 190px;
 }
 .overlap-img {
   display: flex;
@@ -307,13 +323,17 @@ p {
   align-items: center;
   margin: 20px auto;
 }
+.social-icons img {
+  border-right: 1px solid rgb(148, 146, 146);
+  padding-right: 10px;
+}
 
 /* customer-section */
 .customer-section {
   background-image: url(/images/Rectangle\ 14.png);
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
   color: white;
   padding: 50px 0;
 }
@@ -337,51 +357,55 @@ p {
 /* footer-section */
 
 .footer-top {
-  /* background-color: cyan; */
-  background-image: url(/images/contact-bg.png);
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
-  border: 1px solid rgba(209, 208, 208, 0.418);
-  box-shadow: 0.1px 0.1px 0.001px;
-  height: 100%;
-  padding: 80px 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 70px 0px;
   width: 80%;
   margin: 0 auto;
   border-radius: 15px;
   position: relative;
-}
-.footer {
-  background-color: #232233;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
-  color: white;
-  padding: 50px 0;
-  margin-top: -100px;
+  border: 0.5px solid rgba(209, 208, 208, 0.418);
+  box-shadow: 0.1px -0.1px 0.001px;
 }
 .items {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+.item-1{
+  border-right: 2px solid black;
+  padding-right: 25%;
+}
 .items img {
-  width: 40px;
+  width: 50px;
   background-color: rgb(27, 99, 233);
   border-radius: 50%;
   padding: 10px;
   margin-right: 10px;
 }
+.footer {
+  background-color: #232233;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 50px 0;
+  margin-top: -100px;
+}
 .footer-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  padding: 100px;
+  padding: 100px 0;
   text-align: start;
 }
 .icon-bg {
   background-color: white;
-  border-radius: 50%;
-  padding: 3px;
+  /* border-radius: 50%; */
+  padding: 5px;
+  text-align: center;
 }
 .logo-footer,
 .links {
@@ -398,8 +422,12 @@ p,
   text-align: start;
   margin-bottom: 5px;
 }
-.footer-icons img {
-  margin-left: -40px;
+
+.footer-icons {
+}
+.footer-icons img{
+  margin-right: 10px;
+  width: 30px;
 }
 
 .links h1,

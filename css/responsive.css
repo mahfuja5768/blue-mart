@@ -1,6 +1,12 @@
 /* responsive-part */
 /* mobile */
 @media screen and (max-width: 577px) {
+  .container{
+    width: 90%;
+  }
+  .btn{
+    padding: 5px  10px;
+  }
   h1 {
     font-size: 27px;
     font-weight: 400;
@@ -10,9 +16,32 @@
     line-height: 0.125rem;
     font-size: 12px;
   }
-  .navs{
+  .navs {
+    padding-top: 0px;
+    padding: 40px 0;
+  }
+  nav .bars{
+    display: block;
+  }
+  .top-panel {
+    padding: 5px 15px;
+  }
+ 
+  nav a{
     display: none;
   }
+  .logo{
+    width: 100px;
+  }
+  .logo {
+    align-items: center;
+    margin-top: -45px;
+    padding: 20px 5px;
+    position: relative;
+    border-radius: 5px;
+  }
+
+
   .title-paragraph {
     width: 300px;
     margin: 0 auto;
@@ -93,6 +122,12 @@
     text-align: center;
     margin-bottom: 30px;
   }
+  .left-feature , .left-feature p{
+    text-align: center;
+  }
+  .right-feature p{
+    text-align: center;
+  }
   .features-mid-img {
     margin: 30px 0;
     display: flex;
@@ -133,13 +168,13 @@
     padding: 0 20px;
   }
   .download-content p {
-    width: 330px;
+    width: 300px;
   }
   .cards img {
     width: 90px;
   }
   .panel-pic img {
-    width: 336px;
+    width: 95%;
     margin-top: 40px;
   }
 
@@ -156,6 +191,16 @@
     margin-top: -60px;
   }
 
+  .customer-section p {
+    width: 300px;
+  }
+   .customer-comment img{
+    width: 400px;
+  }
+  .comment-img-1 ,  .comment-img-2 {
+   display: none;
+  }
+  
   .team-cards,
   .blogs-cards {
     grid-template-columns: repeat(1, 1fr);
@@ -166,22 +211,6 @@
     padding: 20px 5px;
   }
 
-  .customer-section p {
-    width: 300px;
-  }
-  .comment-img-1,
-  .comment-img-2,
-  .comment-img-3 {
-    width: 100%;
-  }
-
-  .comment-img-1 {
-    margin-right: -500px;
-  }
-  .comment-img-2 {
-    margin-right: -500px;
-    position: relative;
-  }
 
   .blogs-cards {
     margin-top: 20px;
@@ -204,14 +233,23 @@
   .item-2 {
     flex-direction: column;
   }
-  .items h1 {
-    display: none;
+  .item-1{
+    border-right: none;
+    border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  padding-right: 0;
+  }
+  .item-2{
+    margin-top: 10px;
   }
 }
 
 /* tablet */
 
 @media screen and (min-width: 578px) and (max-width: 992px) {
+  .container{
+    width: 90%;
+  }
   h1 {
     font-size: 32px;
     font-weight: 600;
@@ -226,42 +264,55 @@
   .navs nav img{
     display: block;
   }
+  .logo{
+    width: 150px;
+  }
+  .top-panel {
+    padding: 10px 10px;
+  }
   .banner-msg {
-    width: 320px;
+    width: 280px;
     height: 350px;
   }
   .img-border {
     margin-top: -380px;
-    margin-left: 40px;
-    width: 310px;
+    margin-left: 10px;
+    width: 290px;
     height: 410px;
   }
   .banner-msg h1 {
     text-align: start;
-    font-size: 30px;
+    font-size: 25px;
     color: blue;
     margin-bottom: 20px;
   }
   .banner-msg p {
-    width: 290px;
+    width: 250px;
     height: 66px;
     margin-bottom: 40px;
   }
   .banner-img img {
+    width: 200px;
     height: 500px;
   }
+  .title-paragraph{
+    width: 50%;
+  }
   .about-img img {
-    width: 300px;
+    width: 250px;
   }
   .card {
-    width: 400px;
+    width: 300px;
   }
   .content-text {
-    width: 300px;
+    width: 200px;
   }
 
   .features-section {
-    padding: 50px 10px;
+    padding: 50px 0px;
+  }
+  .same-look h2 {
+    font-size: 25px;
   }
 
   .coloum-flex {
@@ -287,45 +338,49 @@
     display: block;
   }
   .img-1 img {
-    width: 164px;
-    height: 354px;
+    width: 130px;
+    height: 340px;
   }
 
   .img-2 img {
-    width: 164px;
-    height: 354px;
+    width: 130px;
+    height: 340px;
     position: relative;
     margin-left: 50px;
   }
   .img-3 img {
-    width: 230px;
-    height: 444px;
+    width: 150px;
+    height: 344px;
   }
   .img-4 img {
-    width: 164px;
-    height: 354px;
+    width: 130px;
+    height: 340px;
     position: relative;
     margin-right: 50px;
   }
   .img-5 img {
-    width: 164px;
-    height: 354px;
+    width: 130px;
+    height: 340px;
+  }
+  .download-panel{
+    justify-content: space-between;
   }
 
   .download-content {
-    width: 80%;
-    padding: 30px;
-  }
-  .download-content p {
-    width: 330px;
+    width: 90%;
+    padding: 10px;
   }
   .cards img {
-    width: 100px;
+    width: 90px;
   }
   .panel-pic img {
-    width: 336px;
-    height: 330px;
-    margin-top: 40px;
+    width: 250px;
+  }
+  .download-content h1 {
+    font-size: 20px;
+  }
+  .download-content p {
+    width: 240px;
   }
 
   .use-section-content {
@@ -337,34 +392,38 @@
     width: 360px;
   }
   .overlap-img img {
-    width: 570px;
-    margin-top: -120px;
+    width: 80%;
+    margin-top: -100px;
   }
 
   .team-cards {
     gap: 10px;
-    margin: 0 10px;
+    margin: 50px 10px;
   }
   .person-card {
     padding: 20px 5px;
   }
   .person-card img {
-    width: 130px;
+    width: 100px;
   }
   .person-card h1 {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 20px;
     margin-bottom: 6px;
+  }
+  .person-card h3 {
+    font-size: 15px;
   }
   .person-card p {
     width: 150px;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: center;
   }
 
   .social-icons {
-    width: 180px;
+    width: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -375,7 +434,6 @@
   }
 
   .customer-section {
-    color: white;
     padding: 50px 0;
   }
   .customer-comment {
@@ -385,7 +443,7 @@
   .comment-img-1,
   .comment-img-2,
   .comment-img-3 {
-    width: 80%;
+    width: 450px;
   }
 
   .comment-img-1 {
@@ -400,6 +458,14 @@
     gap: 5px;
   }
   .blog-card img {
-    width: 280px;
+    width: 90%;
   }
+  .item-1{
+  padding-right: 20%;
+  }
+  .links h1,
+.letter h1 {
+  font-weight: 400;
+  font-size: 17px;
+}
 }
